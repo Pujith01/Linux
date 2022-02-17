@@ -1,0 +1,25 @@
+call plug#begin('~/.vim/plugged')
+
+" Vim Status line
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+" Git symbols in status bar
+Plug 'airblade/vim-gitgutter'
+
+" Git wrapper to execute Git commands in Vim
+Plug 'tpope/vim-fugitive'
+
+" Colorful Brackets
+Plug 'frazrepo/vim-rainbow'
+
+" Show colors for hex codes
+Plug 'ap/vim-css-color'
+
+" Gruvbox color theme
+Plug 'morhetz/gruvbox'
+
+" A collection of language for vim
+Plug 'sheerun/vim-polyglot'
+
+call plug#end()
